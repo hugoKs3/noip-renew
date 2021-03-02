@@ -193,7 +193,7 @@ def get_args_values(argv):
     debug = 1
     if len(argv) > 3:
         debug = int(argv[3])
-    return noip_username, noip_password, debug
+    return noip_username, noip_password, 2
 
 
 if __name__ == "__main__":
